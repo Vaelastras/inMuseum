@@ -1,7 +1,11 @@
-import './App.css';
+import React from 'react';
+import './App.scss';
+import Footer from "../Footer/Footer";
 
 function App() {
-  return ;
+  return(
+    <Footer/>
+  )
 }
 
 export default App;

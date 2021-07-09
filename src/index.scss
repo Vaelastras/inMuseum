@@ -1,6 +1,20 @@
-@import "./vendor/_normalize";
-@import './vendor/fonts/fonts';
-@import './assets/scss/vars';
-@import './assets/scss/basic';
+@import "./vendor/normalize";
+@import './vendor/fonts/fonts.scss';
+@import './assets/scss/vars.scss';
+@import './assets/scss/basic.scss';
+@import "./components/Footer/footer.scss";
+@import "./components/Social-menu/social-menu.scss";
 
+#root {
+  margin: 0 auto;
+  max-width: 1440px;
+  min-width: 320px;
+  box-sizing: border-box;
+  padding: 40px;
+}
 
+@media screen and (max-width: 768px){
+  #root {
+    padding: 0;
+  }
+}
