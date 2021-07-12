@@ -1,0 +1,34 @@
+.burger {
+  display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+  .burger{
+    max-width: 40px;
+    height: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &__line {
+      background: $dViolet;
+      height: 2px;
+      box-sizing: border-box;
+      transition: all $t-eo;
+      &_active {
+        &:first-of-type {
+          width: 17px;
+          transform: translate(50%,750%) rotate(45deg);
+        }
+        &:last-of-type {
+          width: 17px;
+          transform: translate(50%,0%) rotate(-45deg);
+        }
+        &:nth-of-type(2), &:nth-of-type(3) {
+          opacity: 0;
+        }
+      }
+    }
+
+  }
+}
