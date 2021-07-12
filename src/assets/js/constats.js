@@ -2,6 +2,7 @@ import youTubeLogo from '../images/icons/youtube-logo.svg'
 import vkLogo from '../images/icons/vk-logo.svg';
 import facebookLogo from '../images/icons/fb-logo.svg';
 import instagramLogo from '../images/icons/instagram-logo.svg';
+import logo from '../images/project-logo.png'
 
 export const socialLogoArr = [
 	{
@@ -30,3 +31,10 @@ export const socialLogoArr = [
 		title: 'Check us at Instagram'
 	}
 ];
+
+
+export const projectLogo = {
+	title: "Inclusive museum",
+	src: logo,
+	alt: 'inclusive museum logo'
+}
