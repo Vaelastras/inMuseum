@@ -18,11 +18,11 @@
       &_active {
         &:first-of-type {
           width: 17px;
-          transform: translate(50%,750%) rotate(45deg);
+          transform: translate(0%,300%) rotate(45deg);
         }
         &:last-of-type {
           width: 17px;
-          transform: translate(50%,0%) rotate(-45deg);
+          transform: translate(0%,-440%) rotate(-45deg);
         }
         &:nth-of-type(2), &:nth-of-type(3) {
           opacity: 0;
