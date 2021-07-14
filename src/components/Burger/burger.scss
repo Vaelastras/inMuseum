@@ -5,7 +5,7 @@
 
 @media screen and (max-width: 768px) {
   .burger{
-    max-width: 40px;
+    width: 40px;
     height: 17px;
     display: flex;
     flex-direction: column;
@@ -17,11 +17,11 @@
       transition: all $t-eo;
       &_active {
         &:first-of-type {
-          width: 17px;
+          width: 40px;
           transform: translate(0%,300%) rotate(45deg);
         }
         &:last-of-type {
-          width: 17px;
+          width: 40px;
           transform: translate(0%,-440%) rotate(-45deg);
         }
         &:nth-of-type(2), &:nth-of-type(3) {

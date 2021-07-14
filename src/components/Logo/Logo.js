@@ -1,11 +1,12 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import {projectLogo} from  '../../assets/js/constats.js';
 
 function Logo () {
   return (
-    <div className='logo'>
+    <Link to={'./'} className='logo'>
       <img className='logo__picture' src={projectLogo.src} alt={projectLogo.alt} title={projectLogo.title}/>
-    </div>
+    </Link>
   )
 }
 

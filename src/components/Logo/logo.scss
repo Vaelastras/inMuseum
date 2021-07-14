@@ -2,7 +2,18 @@
   &__picture {
     max-width: 102px;
     max-height: 94px;
-    padding: 3px 0;
+    //padding: 3px 0;
+
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .logo {
+    &__picture {
+      max-width: 86px;
+      max-height: 79px;
+      //padding: 8px 0;
+    }
   }
 }
 
@@ -11,7 +22,7 @@
     &__picture {
       max-width: 57px;
       max-height: 53px;
-      padding: 8px 0;
+      //padding: 8px 0;
     }
   }
 }
