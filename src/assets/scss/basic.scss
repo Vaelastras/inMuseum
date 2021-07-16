@@ -2,7 +2,7 @@
   font-family: $Calibri;
   font-size: 36px;
   line-height: 44px;
-  letter-spacing: -.5%;
+  letter-spacing: -0.05rem;
   color: $black;
 }
 .txt-2 {
@@ -13,9 +13,10 @@
 }
 .txt-3 {
   font-family: $Calibri;
+  font-weight: 400;
   font-size: 24px;
   line-height: 30px;
-  letter-spacing: -.5%;
+  letter-spacing: -0.05rem;
 }
 .txt-4 {
   font-size: 18px;
@@ -30,6 +31,7 @@
   font-weight: 700;
   font-size: 30px;
   line-height: 37px;
+  letter-spacing: -.5%;
   text-transform: uppercase;
   color: $saphire;
 }
