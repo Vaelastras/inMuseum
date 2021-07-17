@@ -1,25 +1,27 @@
 .btn {
-  width: 422px;
-  height: 87px;
-  padding: 25px 56px;
-  //display: flex;
-  //place-content: center;
-  //place-items: center;
+  width: 340px;
+  height: 70px;
   background-color: $orange;
   border: 2px solid #FA8E5A;
   box-sizing: border-box;
-  border-right: 50px;
+  border-radius: 50px;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing:  -0.05rem;
+  &-lg {
+    width: 422px;
+    height: 87px;
+  }
+  &-sm{
+    width: 160px;
+    height: 50px;
+  }
   &:hover {
     cursor: pointer;
     background-color: #ff5e19;
   }
   &:active {
     background-color: $white;
-  }
-  &:first-of-type {
-    padding: 20px 45px;
-    width: 340px;
-    height: 70px;
   }
   &_white {
     background: $white;
@@ -30,3 +32,13 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .btn {
+    width: 245px;
+    height: 50px;
+    &-lg {
+      width: 245px;
+      height: 50px;
+    }
+  }
+}

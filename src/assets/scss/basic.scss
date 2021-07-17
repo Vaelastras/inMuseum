@@ -26,20 +26,20 @@
 .txt-4_bold {
   font-weight: 700;
 }
-.btn-text-l {
+.btn-text-lg {
   font-family: $Calibri;
   font-weight: 700;
   font-size: 30px;
   line-height: 37px;
-  letter-spacing: -.5%;
+  letter-spacing: -0.05rem;
   text-transform: uppercase;
   color: $saphire;
 }
-.btn-text-m {
+.btn-text {
   font-family: $Calibri;
   font-size: 24px;
   line-height: 30px;
-  letter-spacing: -.5%;
+  letter-spacing: -0.05rem;
   text-transform: uppercase;
   font-weight: 700;
   color: $saphire;
@@ -62,9 +62,9 @@
     font-size: 14px;
     line-height: 17px;
   }
-  .btn-text-m, .btn-text-l {
+  .btn-text, .btn-text-lg {
     font-size: 18px;
-    line-height: 21px;
+    line-height: 22px;
   }
 }
 

@@ -1,6 +1,7 @@
 import React from "react";
 import museumPicture from "../../assets/images/museum-for-all.jpg";
 import museumPictureMob from "../../assets/images/museum-for-all-mob.jpg";
+import Button from "../Button/Button";
 
 function About () {
 	const worldDate = new Date();
@@ -28,6 +29,7 @@ function About () {
 						)
 					}
 				</div>
+				<Button/>
 			</div>
 		</section>
 	)

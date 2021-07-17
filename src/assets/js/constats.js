@@ -38,3 +38,4 @@ export const projectLogo = {
 	src: logo,
 	alt: 'inclusive museum logo'
 }
+
