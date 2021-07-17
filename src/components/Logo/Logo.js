@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import {projectLogo} from  '../../assets/js/constats.js';
+import {projectLogo} from '../../assets/js/constants.js';
 
 function Logo () {
   return (

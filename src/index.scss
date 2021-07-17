@@ -1,16 +1,17 @@
 @import "./vendor/normalize";
-@import './vendor/fonts/fonts.scss';
-@import './assets/scss/vars.scss';
-@import './assets/scss/basic.scss';
-@import "./components/Header/header.scss";
-@import "./components/Logo/logo.scss";
-@import "./components/NavBar/navbar.scss";
-@import "./components/Burger/burger.scss";
-@import "./components/Button/button.scss";
-@import "./components/About/about.scss";
+@import './vendor/fonts/fonts';
+@import './assets/scss/vars';
+@import './assets/scss/basic';
+@import "./components/Header/header";
+@import "./components/Logo/logo";
+@import "./components/NavBar/navbar";
+@import "./components/Burger/burger";
+@import "./components/Button/button";
+@import "./components/About/about";
 @import "components/Description/description";
-@import "./components/Footer/footer.scss";
-@import "./components/Social-menu/social-menu.scss";
+@import "./components/Partners/parnters";
+@import "./components/Footer/footer";
+@import "./components/Social-menu/social-menu";
 
 #root {
   margin: 0 auto;

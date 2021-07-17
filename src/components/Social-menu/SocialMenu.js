@@ -1,5 +1,5 @@
 import React from "react";
-import { socialLogoArr } from '../../assets/js/constats';
+import { socialLogoArr } from '../../assets/js/constants';
 
 
 function SocialMenu () {
