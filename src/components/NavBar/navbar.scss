@@ -10,11 +10,17 @@
     color: $black;
     text-transform: uppercase;
     text-decoration: none;
+    transition: $t-eo;
     &:last-of-type {
       margin-right: 0;
     }
+    &:hover{
+      transform: scale(1.1);
+      color: $dViolet;
+    }
     &_active {
       color: $saphire;
+      transform: scale(1.1);
     }
   }
 }

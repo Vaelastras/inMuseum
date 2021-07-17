@@ -2,9 +2,11 @@ import React from 'react';
 import './App.scss';
 import Header from "../Header/Header";
 import About from "../About/About";
-import Footer from "../Footer/Footer";
 import Description from "../Description/Description";
+import Afisha from "../Afisha/Afisha";
 import Partners from "../Partners/Partners";
+import Footer from "../Footer/Footer";
+
 
 function App() {
   return(
@@ -12,6 +14,7 @@ function App() {
       <Header/>
       <About/>
       <Description/>
+      <Afisha/>
       <Partners/>
       <Footer/>
     </>

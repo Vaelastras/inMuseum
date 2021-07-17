@@ -8,6 +8,7 @@
   font-size: 18px;
   line-height: 22px;
   letter-spacing:  -0.05rem;
+  transition: background $t-eo;
   &-lg {
     width: 422px;
     height: 87px;
@@ -18,7 +19,7 @@
   }
   &:hover {
     cursor: pointer;
-    background-color: #ff5e19;
+    background: linear-gradient(to left, #ff5e19 20%, $orange 50%, #fcb28d 80%);
   }
   &:active {
     background-color: $white;

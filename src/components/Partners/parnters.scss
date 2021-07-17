@@ -27,6 +27,13 @@
   &__logo {
     max-width: 150px;
     max-height: 50px;
+    filter: grayscale(100%);
+    transition: $t-eo;
+    &:hover {
+      filter: grayscale(0%);
+      transform: scale(1.25);
+
+    }
   }
 
 }
