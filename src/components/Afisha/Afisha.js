@@ -3,7 +3,7 @@ import Button from "../Button/Button";
 
 function Afisha () {
 	return (
-		<section className="afisha">
+		<section className="afisha" id='afisha'>
 			<div className="afisha__wrapper">
 				<Button/>
 			</div>

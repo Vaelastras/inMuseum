@@ -5,7 +5,7 @@ import Card from '../Card/Card';
 function Project () {
 
 	return (
-		<section className="projects">
+		<section className="project" id='project'>
 			<div className="project__header">
 				<h3 className="project__title">Проекты</h3>
 			</div>

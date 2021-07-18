@@ -2,7 +2,7 @@ import React from "react";
 
 function Description () {
 	return (
-		<section className='description'>
+		<section className='description' id='description'>
 			<div className="description__wrapper">
 				<p className="description__text txt-2">Акция «Музей для всех”  пройдет в России  в четвертый раз. В 2017 году акция объединила
 					более 250 российских музеев и 13000 участников, а в 2018 году в ней приняли участие 360 музеев
