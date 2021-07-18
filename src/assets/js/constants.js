@@ -12,6 +12,16 @@ import supportVklad from '../images/vklad-sb-icon.jpg';
 import supportVPF from '../images/VPF-icon.jpg';
 import supportCulture from '../images/culture-icon.jpg';
 
+import noImage from '../images/cards/no-image.png';
+import firstCardMainPicture from '../images/cards/card-1.jpg'
+import secondCardMainPicture from '../images/cards/card-2.jpg'
+import thirdCardMainPicture from '../images/cards/card-3.jpg'
+import firstMiniCard from '../images/cards/mini/card-mini-1.jpg'
+import secondMiniCard from '../images/cards/mini/card-mini-2.jpg'
+import thirdNiniCard from '../images/cards/mini/card-mini-3.jpg'
+const cardTextIntro = 'Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития.'
+const cardTextParagraph = 'Постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет выполнять важные задания по разработке модели развития. Повседневная практика показывает, что консультация с широким активом способствует подготовки и реализации новых предложений.'
+
 export const socialLogoArr = [
 	{
 		id: 1,
@@ -98,5 +108,36 @@ export const partners = [
 		title: 'Партнёры',
 		visible: false,
 		images: []
+	}
+];
+
+export const initialCards =  [
+	{
+		id: 1,
+		title: `“Неудобные вопросы об инвалидности”` || cardTextIntro,
+		description_1: cardTextIntro || '',
+		description_2: cardTextParagraph || '',
+		image: firstCardMainPicture || noImage,
+		pictures: [firstMiniCard, secondMiniCard, thirdNiniCard],
+		url: '',
+		left: true
+	}, {
+		id: 2,
+		title: `“Как я понял что у меня инвалидность”`,
+		description_1: 'Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития.',
+		description_2: 'Постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет выполнять важные задания по разработке модели развития. Повседневная практика показывает, что консультация с широким активом способствует подготовки и реализации новых предложений.',
+		image: secondCardMainPicture,
+		pictures: [firstMiniCard, secondMiniCard, thirdNiniCard],
+		url: '',
+		left: false
+	}, {
+		id: 3,
+		title: `“Как помогает ваше домашнее животное в жизни”`,
+		description_1: 'Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития. Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке модели развития.',
+		description_2: 'Постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет выполнять важные задания по разработке модели развития. Повседневная практика показывает, что консультация с широким активом способствует подготовки и реализации новых предложений.',
+		image: thirdCardMainPicture,
+		pictures: [firstMiniCard, secondMiniCard, thirdNiniCard],
+		url: '',
+		left: true
 	}
 ]

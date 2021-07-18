@@ -1,0 +1,53 @@
+.project {
+  &__wrapper {
+    margin: 80px 0 100px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px
+  }
+  &__header{
+    width: 100%;
+    min-height: 130px;
+    background: $beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__title {
+    font-family: $Prib;
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: 0.02rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .project {
+    &__wrapper {
+      margin: 46px 0 60px;
+    }
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .project {
+    &__wrapper {
+      margin: 25px auto 36px;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      row-gap: 50px;
+    }
+    &__header {
+      min-height: 70px;
+    }
+    &__title {
+      font-size: 24px;
+      line-height: 36px;
+    }
+  }
+}

@@ -10,11 +10,14 @@
 @import "./components/About/about";
 @import "./components/Description/description";
 @import "./components/Afisha/afisha";
+@import "./components/Project/project";
+@import "./components/Card/card";
 @import "./components/Partners/parnters";
 @import "./components/Footer/footer";
 @import "./components/Social-menu/social-menu";
 
 #root {
+  font-family: $Calibri;
   margin: 0 auto;
   max-width: 1440px;
   min-width: 320px;

@@ -5,6 +5,7 @@ import About from "../About/About";
 import Description from "../Description/Description";
 import Afisha from "../Afisha/Afisha";
 import Partners from "../Partners/Partners";
+import Project from "../Project/Project";
 import Footer from "../Footer/Footer";
 
 
@@ -14,6 +15,7 @@ function App() {
       <Header/>
       <About/>
       <Description/>
+      <Project/>
       <Afisha/>
       <Partners/>
       <Footer/>

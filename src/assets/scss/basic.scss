@@ -1,19 +1,16 @@
 .txt-1 {
-  font-family: $Calibri;
   font-size: 36px;
   line-height: 44px;
   letter-spacing: -0.05rem;
   color: $black;
 }
 .txt-2 {
-  font-family: $Calibri;
   font-size: 20px;
   line-height: 36px;
   text-align: center;
   letter-spacing: 0.02rem;
 }
 .txt-3 {
-  font-family: $Calibri;
   font-weight: 400;
   font-size: 24px;
   line-height: 30px;
@@ -22,13 +19,11 @@
 .txt-4 {
   font-size: 18px;
   line-height: 22px;
-  font-family: $Calibri;
 }
 .txt-4_bold {
   font-weight: 700;
 }
 .btn-text-lg {
-  font-family: $Calibri;
   font-weight: 700;
   font-size: 30px;
   line-height: 37px;
@@ -37,7 +32,6 @@
   color: $saphire;
 }
 .btn-text {
-  font-family: $Calibri;
   font-size: 24px;
   line-height: 30px;
   letter-spacing: -0.05rem;
@@ -45,6 +39,30 @@
   font-weight: 700;
   color: $saphire;
 }
+
+@media screen and (max-width: 1024px) {
+  .txt-1 {
+    font-size: 30px;
+    line-height: 32px;
+  }
+  .txt-2 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .txt-3 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .txt-4 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .btn-text, .btn-text-lg {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+
 
 @media screen and (max-width: 768px) {
   .txt-1 {
@@ -57,11 +75,11 @@
   }
   .txt-3 {
     font-size: 14px;
-    line-height: 17px;
+    line-height: 18px;
   }
   .txt-4 {
     font-size: 14px;
-    line-height: 17px;
+    line-height: 16px;
   }
   .btn-text, .btn-text-lg {
     font-size: 18px;
