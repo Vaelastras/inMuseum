@@ -1,0 +1,134 @@
+.article {
+  &__header {
+    display: flex;
+    align-items: center;
+    max-height: 90px;
+    background: $beige;
+    padding: 23px 50px;
+    box-sizing: border-box;
+    box-shadow: $bshadow;
+  }
+  &__title {
+    margin: 0;
+  }
+  &__content {
+    margin: 50px 65px;
+    display: flex;
+    justify-content: space-between;
+    &_reverse {
+      flex-direction: row-reverse;
+    }
+  }
+  &__image {
+    width: 100%;
+    min-width: 391px;
+    max-height: 391px;
+    object-fit: cover;
+    &-block {
+      display: flex;
+      column-gap: 40px;
+      margin-right: 20px;
+      &_reverse{
+        flex-direction: row-reverse;
+      }
+    }
+    &-preview {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      padding: 0;
+      margin: 0;
+    }
+    &-min {
+      transition: $t-eo;
+      filter: grayscale(100%);
+      &-wrapper {
+        width: 105px;
+        height: 105px;
+        overflow: hidden;
+      }
+    &:hover {
+      transform: scale(1.1);
+      filter: grayscale(0%);
+    }
+    }
+  }
+  &__text {
+    margin: 0 0 24px 0;
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+    &-block {
+      max-width: 557px;
+      &-content {
+        margin-bottom: 50px;
+      }
+    }
+  }
+  &__button {
+    display: flex;
+    justify-content: flex-start;
+    &_reverse {
+      justify-content: flex-end;
+    }
+  }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  .article {
+    &__header {
+      min-height: 80px;
+      padding: 10px 25px;
+    }
+    &__content {
+      max-width: 557px;
+      margin: 50px auto;
+      flex-direction: column;
+      justify-content: center;
+    }
+    &__text{
+      text-align: justify;
+      &-block {
+        &-content{
+          margin-top: 24px;
+        }
+      }
+    }
+    &__image{
+      &-block {
+        max-width: inherit;
+        gap: 40px;
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .article {
+    &__content {
+      margin: 0px auto;
+      padding: 25px;
+      box-sizing: border-box;
+    }
+    &__image{
+      min-width: 268px;
+      max-width: 391px;
+      margin: 0 auto;
+      filter: drop-shadow(0px 3px 7px rgba($black, .25));
+      &-preview {
+        display: none;
+      }
+    }
+    &__text {
+      &-block {
+        &-content {
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+
+}
