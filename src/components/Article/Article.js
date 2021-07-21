@@ -1,15 +1,14 @@
 import React from "react";
 import Button from "../Button/Button";
-import {initialCards} from '../../assets/js/constants'
 
-function Article () {
+function Article (props) {
 
-	const {id, title, about, description, image, pictures, url, side } = props;
+	const { title, about, description, image, pictures, url } = props;
 	return (
 		<section className="article">
 			<div className="article__wrapper">
 				<div className='article__header'>
-					<h2 className="article__title txt-1">{initialCards[0].title}</h2>
+					<h2 className="article__title txt-1">{title}</h2>
 				</div>
 				<div className="article__content">
 					<div className="article__image-block">

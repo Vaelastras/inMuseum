@@ -1,0 +1,68 @@
+.timer {
+  padding: 20px 0 40px;
+  box-sizing: border-box;
+  max-width: 310px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  & span {
+    align-self: flex-start;
+    font-size: 20px;
+    font-weight: 900;
+  }
+  &__wrapper {
+    display: flex;
+  }
+  &__time-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    & p small {
+      display: block;
+      text-align: center;
+      margin-top: 16px;
+      font-size: 18px;
+      line-height: 18px;
+      width: 57px;
+    }
+  }
+  &__text {
+    margin: 0;
+    color: $pink;
+    &-counter {
+      display: block;
+      font-family: $Prib;
+      @extend .timer__text;
+      font-size: 48px;
+      line-height: 48px;
+      letter-spacing: -0.05rem;
+      text-align: center;
+      margin: 17px 0 0 0;
+    }
+  }
+}
+
+
+@media screen and (max-width: 768px){
+  .timer {
+    max-width: 240px;
+    padding: 25px 0;
+    &__time-block {
+      & p small {
+        font-size: 14px;
+
+        width: 50px;
+      }
+    }
+    &__text {
+      //margin: 0 0 40px 0;
+      &-counter {
+        margin: 23px 0 0 0;
+        font-size: 36px;
+        line-height: 36px;
+      }
+    }
+  }
+}

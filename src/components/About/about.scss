@@ -40,20 +40,6 @@
       line-height: 35px;
       letter-spacing: -0.05rem;
     }
-    &-text {
-      margin: 0 0 35px 0;
-      color: $pink;
-      &-counter {
-        display: block;
-        font-family: $Prib;
-        @extend .about__event-text;
-        font-size: 48px;
-        line-height: 48px;
-        letter-spacing: -0.05rem;
-        text-align: center;
-        margin: 17px 0 0 0;
-      }
-    }
   }
 }
 
@@ -78,14 +64,7 @@
         font-size: 24px;
         line-height: 24px;
       }
-      &-text {
-        margin: 0 0 40px 0;
-        &-counter {
-          margin: 23px 0 0 0;
-          font-size: 36px;
-          line-height: 36px;
-        }
-      }
+
     }
   }
 }

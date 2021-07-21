@@ -1,14 +1,16 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+import React, {useEffect} from "react";
+import { Link } from "react-router-dom";
+import {withRouter} from 'react-router-dom';
 
 function NavBar () {
+
   return (
     <nav className="navigation">
-      <NavLink to={'./action'} activeClassName='navigation__link_active' className='navigation__link'>Акция</NavLink>
-      <NavLink to={'./afisha'} activeClassName='navigation__link_active' className='navigation__link'>Афиша</NavLink>
-      <NavLink to={'./organizators'} activeClassName='navigation__link_active' className='navigation__link'>Организаторы</NavLink>
-      <NavLink to={'./projects'} activeClassName='navigation__link_active' className='navigation__link'>Спецпроекты</NavLink>
-      <NavLink to={'./parnters'} activeClassName='navigation__link_active' className='navigation__link'>Партнёры</NavLink>
+      <Link to={'/#about'} activeClassName='navigation__link_active' className='navigation__link'>Акция</Link>
+      <Link to={'/afisha'} activeClassName='navigation__link_active' className='navigation__link'>Афиша</Link>
+      <Link to={'/organizators'} activeClassName='navigation__link_active' className='navigation__link'>Организаторы</Link>
+      <Link to={'/projects'} activeClassName='navigation__link_active' className='navigation__link'>Спецпроекты</Link>
+      <Link to={'/#partners'} activeClassName='navigation__link_active' className='navigation__link'>Партнёры</Link>
     </nav>
   )
 }

@@ -3,7 +3,7 @@ import {partners} from '../../assets/js/constants'
 
 function Partners () {
 	return (
-		<section className="partners" id='partners'>
+		<section className="partners" id='#partners'>
 			<div className="partners__wrapper">
 				{
 					partners.map((item, idx) => {

@@ -2,15 +2,14 @@ import React from 'react';
 import './App.scss';
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
-import Main from "../Main/main";
-import Article from "../Article/Article";
+import Main from "../Main/Main";
 
 
 function App() {
   return(
     <>
       <Header/>
-      <Article/>
+      {/*<Article/>*/}
       <Main/>
       <Footer/>
     </>

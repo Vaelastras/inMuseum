@@ -1,4 +1,29 @@
 .main {
   width: 100%;
   box-shadow: $bshadow;
+  &__title {
+    font-family: $Prib;
+    margin: 0;
+    font-size: 48px;
+    line-height: 36px;
+    letter-spacing: .02rem;
+    text-align: center;
+    &-wrapper {
+      min-height: 97px;
+      display: flex;
+      place-items: center;
+      place-content: center;
+    }
+  }
+}
+
+
+@media screen and (max-width:1024px) {
+  .main {
+    &__title {
+      font-size: 24px;
+      line-height: 36px;
+    }
+  }
+
 }
