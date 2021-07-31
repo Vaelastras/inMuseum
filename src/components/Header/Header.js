@@ -3,24 +3,27 @@ import Logo from "../Logo/Logo";
 import NavBar from "../NavBar/NavBar";
 import Burger from "../Burger/Burger";
 
-function Header () {
-
+function Header ({isBurgerMenuOpen, handleOpenBurgerMenu, }) {
 
   return (
     <>
       <header className="header">
         <div className="header__wrapper">
           <Logo/>
-          <NavBar/>
-          <Burger/>
+          {!isBurgerMenuOpen && (<NavBar/>)}
+          <Burger
+            isBurgerMenuOpen={isBurgerMenuOpen}
+            handleOpenBurgerMenu={handleOpenBurgerMenu}/>
         </div>
-        <div className='header__mobile-bar header__mobile-bar_hidden'>
+        {isBurgerMenuOpen && (<div className='header__mobile-bar'>
           <div className="header__mobile-bar-wrapper">
-            <NavBar/>
+            <NavBar
+              handleOpenBurgerMenu={handleOpenBurgerMenu}/>
+
           </div>
-        </div>
+        </div>)}
       </header>
-      <div className='header__mobile-bar-overlay header__mobile-bar-overlay_hidden'/>
+      {isBurgerMenuOpen && (<div className='header__mobile-bar-overlay'/>)}
     </>
   )
 }

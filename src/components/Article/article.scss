@@ -12,11 +12,15 @@
     margin: 0;
   }
   &__content {
-    margin: 50px 65px;
+    padding: 50px 65px;
     display: flex;
     justify-content: space-between;
     &_reverse {
       flex-direction: row-reverse;
+      gap: 20px;
+    }
+    &.article__content_reverse .article__image-block {
+      margin-right: 0;
     }
   }
   &__image {
@@ -34,7 +38,6 @@
     }
     &-preview {
       display: flex;
-      justify-content: space-between;
       flex-direction: column;
       padding: 0;
       margin: 0;
@@ -42,10 +45,14 @@
     &-min {
       transition: $t-eo;
       filter: grayscale(100%);
+
       &-wrapper {
         width: 105px;
         height: 105px;
         overflow: hidden;
+        &:nth-of-type(2){
+          margin: 38px 0;
+        }
       }
     &:hover {
       transform: scale(1.1);
@@ -103,11 +110,18 @@
         margin-right: 0;
       }
     }
+    &__button {
+      justify-content: center;
+    }
   }
 }
 
 @media screen and (max-width: 768px) {
   .article {
+    &__header {
+      justify-content: center;
+    }
+
     &__content {
       margin: 0px auto;
       padding: 25px;

@@ -1,16 +1,14 @@
-import React, {useEffect} from "react";
-import { Link } from "react-router-dom";
-import {withRouter} from 'react-router-dom';
+import React from "react";
+import { HashLink as Link } from "react-router-hash-link";
 
-function NavBar () {
+function NavBar ({handleOpenBurgerMenu}) {
 
   return (
     <nav className="navigation">
-      <Link to={'/#about'} activeClassName='navigation__link_active' className='navigation__link'>Акция</Link>
-      <Link to={'/afisha'} activeClassName='navigation__link_active' className='navigation__link'>Афиша</Link>
-      <Link to={'/organizators'} activeClassName='navigation__link_active' className='navigation__link'>Организаторы</Link>
-      <Link to={'/projects'} activeClassName='navigation__link_active' className='navigation__link'>Спецпроекты</Link>
-      <Link to={'/#partners'} activeClassName='navigation__link_active' className='navigation__link'>Партнёры</Link>
+      <Link onClick={handleOpenBurgerMenu} to='../#about' activeClassName='navigation__link_active' className='navigation__link'>Акция</Link>
+      <Link onClick={handleOpenBurgerMenu} to='../#description' activeClassName='navigation__link_active' className='navigation__link'>Афиша</Link>
+      <Link onClick={handleOpenBurgerMenu} to='../#project' activeClassName='navigation__link_active' className='navigation__link'>Проекты</Link>
+      <Link onClick={handleOpenBurgerMenu} to='../#partners' activeClassName='navigation__link_active' className='navigation__link'>Организаторы</Link>
     </nav>
   )
 }

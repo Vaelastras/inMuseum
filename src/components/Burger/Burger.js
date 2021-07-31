@@ -1,14 +1,10 @@
 import React from 'react';
 
-function Burger () {
+function Burger ({handleOpenBurgerMenu}) {
 
-  function openBurgerMenu () {
-    document.querySelectorAll('.burger__line')
-      .forEach(elem => elem.classList.toggle('burger__line_active'));
-  }
 
   return (
-    <div className="burger" onClick={openBurgerMenu}>
+    <div className="burger" onClick={handleOpenBurgerMenu}>
       <span className="burger__line"/>
       <span className="burger__line"/>
       <span className="burger__line"/>

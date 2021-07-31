@@ -13,7 +13,6 @@ function Project () {
 				{initialCards.map((card, index) => {
 					const {image, title, url} = card;
 					return (
-
 						<Card
 							image={image}
 							title={title}

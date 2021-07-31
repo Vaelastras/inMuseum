@@ -1,5 +1,6 @@
 .btn {
-  width: 340px;
+  max-width: 340px;
+  padding: 0 60px;
   height: 70px;
   background-color: $orange;
   border: 2px solid #FA8E5A;
@@ -35,7 +36,7 @@
 
 @media screen and (max-width: 768px) {
   .btn {
-    width: 245px;
+    //width: 245px;
     height: 50px;
     &-lg {
       width: 245px;

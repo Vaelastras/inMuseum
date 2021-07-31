@@ -38,6 +38,7 @@
   .navigation{
     flex-direction: column;
     align-items: flex-start;
+    display: none;
     &__link {
       margin-right: 0;
       margin-bottom: 12px;

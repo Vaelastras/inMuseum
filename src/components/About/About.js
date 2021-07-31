@@ -5,7 +5,7 @@ import Timer from "../Timer/Timer";
 
 function About () {
 	return (
-		<section className='about' id='#about'>
+		<section className='about' id='about'>
 			<div className='about__wrapper'>
 				<h1 className="about__title">Всероссийская инклюзивная акция</h1>
 				<img className='about__logo' src={museumPicture} alt='assorty logo' title='Inclusive museum title'/>
