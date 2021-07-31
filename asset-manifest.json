@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "./static/css/main.834af056.chunk.css",
-    "main.js": "./static/js/main.ce16d9fb.chunk.js",
-    "main.js.map": "./static/js/main.ce16d9fb.chunk.js.map",
+    "main.js": "./static/js/main.6a12bf5a.chunk.js",
+    "main.js.map": "./static/js/main.6a12bf5a.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.eefe3478.js",
     "runtime-main.js.map": "./static/js/runtime-main.eefe3478.js.map",
-    "static/js/2.1f2a87a8.chunk.js": "./static/js/2.1f2a87a8.chunk.js",
-    "static/js/2.1f2a87a8.chunk.js.map": "./static/js/2.1f2a87a8.chunk.js.map",
+    "static/js/2.1856e87c.chunk.js": "./static/js/2.1856e87c.chunk.js",
+    "static/js/2.1856e87c.chunk.js.map": "./static/js/2.1856e87c.chunk.js.map",
     "index.html": "./index.html",
     "static/css/main.834af056.chunk.css.map": "./static/css/main.834af056.chunk.css.map",
-    "static/js/2.1f2a87a8.chunk.js.LICENSE.txt": "./static/js/2.1f2a87a8.chunk.js.LICENSE.txt",
+    "static/js/2.1856e87c.chunk.js.LICENSE.txt": "./static/js/2.1856e87c.chunk.js.LICENSE.txt",
     "static/media/ICOM-logo.f4e266ac.jpg": "./static/media/ICOM-logo.f4e266ac.jpg",
     "static/media/Koleso-icon.04147290.jpg": "./static/media/Koleso-icon.04147290.jpg",
     "static/media/index.scss": "./static/media/Pribambas-Regular.9d59c5ed.woff",
@@ -29,8 +29,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.eefe3478.js",
-    "static/js/2.1f2a87a8.chunk.js",
+    "static/js/2.1856e87c.chunk.js",
     "static/css/main.834af056.chunk.css",
-    "static/js/main.ce16d9fb.chunk.js"
+    "static/js/main.6a12bf5a.chunk.js"
   ]
 }
